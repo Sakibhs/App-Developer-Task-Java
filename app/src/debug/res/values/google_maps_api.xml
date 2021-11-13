@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=FA:74:F1:65:B1:D2:D6:14:55:C6:59:60:9B:24:94:D1:F7:2D:4B:E4%3Bnet.appcolors.babulandtask
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    net.appcolors.babulandtask
+
+    SHA-1 certificate fingerprint:
+    FA:74:F1:65:B1:D2:D6:14:55:C6:59:60:9B:24:94:D1:F7:2D:4B:E4
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCwhyOktkFhv93rF3swqFu6IAX9y5Pl6Ek</string>
+</resources>

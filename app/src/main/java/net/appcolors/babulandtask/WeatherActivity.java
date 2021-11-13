@@ -86,8 +86,5 @@ public class WeatherActivity extends AppCompatActivity {
                 }
             };
         handler.postDelayed(runnable, 5);
-
-       // RecyclerAdapter adapter = new RecyclerAdapter(this, models);
-
     }
 }

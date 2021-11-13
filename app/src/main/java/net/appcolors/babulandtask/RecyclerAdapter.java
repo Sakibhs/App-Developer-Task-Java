@@ -29,7 +29,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerViewHolder holder, int position) {
-        Intent intent = new Intent(context, MapActivity.class);
+        Intent intent = new Intent(context, MapsActivity.class);
         Log.d("Loggg", "ok2");
             WeatherModel model = models.get(position);
              holder.cityName.setText(model.getCityName());

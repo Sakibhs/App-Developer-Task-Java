@@ -4,20 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:gravity="center"
+    tools:context=".SplashActivity">
 
     <TextView
+        android:textStyle="bold"
+        android:textColor="#00804A"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="WeatherApp"
         android:id="@+id/testTextViewId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="Go to Weather"
-        android:id="@+id/gotoWeatherButtonId"
-        />
 
 </LinearLayout>
